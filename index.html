@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Audric Mihigo - Resume</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Main navigation bar -->
+  <nav>
+    <div class="logo">Audric</div>
+    <button id="menu-toggle">Menu</button>
+    <ul id="nav-links" class="hidden">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About section -->
+  <section id="about" class="fade-in">
+    <h1>Hello, I'm Audric Mihigo</h1>
+    <p>I’m learning software engineering at African Leadership University. This is my resume website.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="fade-in">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>Basic JavaScript</li>
+      <li>Data Entry</li>
+      <li>Communication</li>
+    </ul>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="fade-in">
+    <h2>Work Experience</h2>
+    <p>Data Entry Assistant at XYZ NGO (Jan 2024 - May 2024)</p>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="fade-in">
+    <h2>Education</h2>
+    <p>Software Engineering Student at ALU</p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="fade-in">
+    <h2>Projects</h2>
+    <p>Simple GPA Calculator (HTML & JS)</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="fade-in">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <label>Name:<br><input type="text" id="name" /></label><br>
+      <label>Email:<br><input type="email" id="email" /></label><br>
+      <label>Message:<br><textarea id="message"></textarea></label><br>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+  <!-- Modal Pop-up -->
+<div id="thankYouModal" class="modal hidden">
+  <div class="modal-content">
+    <span id="closeModal" class="close">&times;</span>
+    <h3>Thank you!</h3>
+    <p>Your message has been sent.</p>
+  </div>
+</div>
+
+</body>
+
+</html>
